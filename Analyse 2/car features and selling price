@@ -1,1 +1,53 @@
+# Essalhi hayat
+<img src="hayat" style="height:300px;margin-right:300px; float:left; border-radius:10px;"/>
 
+Numéro d'étudiant : 25007996
+Classe : CAC2
+Compte rendu
+Analyse Prédictive de Régression des Prix de Voitures
+Date : 3 Décembre 2025​
+
+Table des Matières
+Introduction et Contexte
+
+Analyse Exploratoire des Données (Data Analysis)
+
+Chargement et Structure du Dataset
+
+Distribution de la Variable Cible
+
+Préparation pour la Régression
+
+Analyse Statistique et Visuelle
+
+Méthodologie de Régression
+
+Séparation des Données (Data Split)
+
+Algorithmes de Régression
+
+Résultats et Comparaison des Modèles
+
+Modèles Linéaires
+
+Modèles Non-Linéaires
+
+Comparaison des Performances
+
+Conclusion
+
+1. Introduction et Contexte
+Ce rapport présente une analyse détaillée d'un jeu de données réel concernant les caractéristiques des voitures et leurs prix de vente, importé depuis Kaggle, réalisée dans le cadre d'une analyse prédictive de régression. En suivant le cycle de vie des données, nous avons mené une exploration (EDA), un prétraitement et une modélisation avec plusieurs algorithmes de régression.
+
+L'objectif est de construire des modèles capables de prédire le prix de vente (sellingprice) en fonction des caractéristiques des voitures, et d'évaluer les performances relatives des modèles linéaires et non-linéaires via les métriques R², MSE et RMSE.​
+
+2. Analyse Exploratoire des Données (Data Analysis)
+2.1 Chargement et Structure du Dataset
+Le jeu de données "CAR DETAILS FROM CAR DEKHO.csv" contient les caractéristiques des voitures et leurs prix de vente.
+
+Nombre d'échantillons ($N$) : 8128 observations (inféré des splits 70/30).
+
+Nombre de variables ($d$) : Multiples colonnes après encodage (features + target).
+
+Variables d'entrée ($X$) : year, km_driven, fuel, seller_type, transmission, owner (catégorielles encodées via one-hot : fuel, seller_type, transmission, owner), autres numériques.
+Variable de sortie ($Y$) : Prix de vente (sellingprice).
