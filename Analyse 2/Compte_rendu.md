@@ -1,5 +1,5 @@
 # Essalhi hayat
-<img src="essalhi.jp" style="height:300px;margin-right:300px; float:left; border-radius:10px;"/>
+<img src="essalhi.jpg" style="height:300px;margin-right:300px; float:left; border-radius:10px;"/>
 
 Numéro d'étudiant : 25007996
 Classe : CAC2
